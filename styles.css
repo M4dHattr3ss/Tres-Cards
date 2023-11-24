@@ -19,7 +19,7 @@ body{
     flex-direction: column;
 }
 .card{
-    max-width: 255px;
+    max-width: 260px;
     max-height: 200px;
     border: 2px solid lightgray;
     padding: 10px;
@@ -46,6 +46,12 @@ h2, p{
     padding: 2px;
     font-size: 15px;
 }
-p, span{
+p, span, a{
     color: grey;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
