@@ -2,9 +2,9 @@ body{
     max-width: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
-    display: flex;
     margin: 20px;
     margin-top: 250px;
     max-width: 100%;
@@ -12,19 +12,24 @@ body{
     justify-content: center;
     gap: 50px;
 }
-.card{
+.top, .words, .link, .container, .card{
     display: flex;
+}
+.words, .card{
     flex-direction: column;
-    justify-content: space-between;
-    max-width: 250px;
+}
+.card{
+    max-width: 255px;
     max-height: 200px;
     border: 2px solid lightgray;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px rgb(211,211,211, 0.6);
+    box-shadow: 2px 2px rgb(211,211,211, 0.6);
+}
+.card, .link{
+    justify-content: space-between;
 }
 .top{
-    display: flex;
     gap: 15px;
 }
 .icons{
@@ -33,15 +38,11 @@ body{
     align-items: center;
     padding: 15px;
 }
-.words{
-    display: flex;
-    flex-direction: column;
-}
 h2, p{
     margin: 2px;
     padding: 2px;
+    font-size: 15px;
 }
-.link{
-    display: flex;
-    justify-content: space-between;
+p, span{
+    color: grey;
 }
