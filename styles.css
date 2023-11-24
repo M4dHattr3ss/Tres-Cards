@@ -1,0 +1,35 @@
+body{
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    max-width: 100%;
+    max-height: 750px;
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 200px;
+    border: 2px solid darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(128,128,128, 0.5);
+}
+.top{
+    display: flex;
+}
+.icons{
+    max-width: 50px;
+    max-height: 50px;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
