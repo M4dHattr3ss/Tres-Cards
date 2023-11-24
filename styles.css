@@ -1,8 +1,11 @@
 body{
     max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .container{
     display: flex;
+    margin: 20px;
     max-width: 100%;
     max-height: 750px;
     justify-content: center;
@@ -11,23 +14,31 @@ body{
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     max-width: 300px;
     max-height: 200px;
-    border: 2px solid darkgray;
+    border: 2px solid lightgray;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 5px 5px rgb(128,128,128, 0.5);
+    box-shadow: 5px 5px rgb(211,211,211, 0.6);
 }
 .top{
     display: flex;
+    gap: 15px;
 }
 .icons{
     max-width: 50px;
     max-height: 50px;
+    align-items: center;
+    padding: 15px;
 }
 .words{
     display: flex;
     flex-direction: column;
+}
+h2, p{
+    margin: 2px;
+    padding: 2px;
 }
 .link{
     display: flex;
