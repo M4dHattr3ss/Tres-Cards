@@ -26,6 +26,9 @@ body{
     border-radius: 10px;
     box-shadow: 2px 2px rgb(211,211,211, 0.6);
 }
+.card:hover{
+    background-color: rgb(211, 211, 211, 0.4);
+}
 .card, .link{
     justify-content: space-between;
 }
